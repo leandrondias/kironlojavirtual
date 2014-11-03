@@ -109,10 +109,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\ProdutosController.cs" />
+    <Compile Include="Controllers\ProdutoController.cs" />
+    <Compile Include="Controllers\VitrineController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="HtmlHelpers\PaginacaoHelpers.cs" />
+    <Compile Include="Models\Paginacao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -131,7 +134,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+    <Folder Include="Views\Produto\" />
+    <Folder Include="Views\Vitrine\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Kiron.LojaVirtual.Dominio\Kiron.LojaVirtual.Dominio.csproj">

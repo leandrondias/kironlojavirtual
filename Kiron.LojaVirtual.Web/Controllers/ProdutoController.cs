@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace Kiron.LojaVirtual.Web.Controllers
 {
-    public class ProdutosController : Controller
+    public class ProdutoController : Controller
     {
         private ProdutoRepositorio _repositorio;
 
